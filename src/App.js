@@ -207,7 +207,7 @@ function App() {
                                 >
                                     <h1 className="vertical-timeline-element-title" style={{fontSize: '4vh'}}>Associate Consultant</h1>
                                     <h3 className="vertical-timeline-element-subtitle" style={{left: '1vh', fontSize: '2vh', color: 'smoke'}}>San Francisco, CA</h3>
-                                    <h3 style={{fontSize: '1.5vh', color: 'black'}}>
+                                    <h3 style={{fontSize: '3vh', color: 'black'}}>
                                     Building and Automating Analyses, Strategy Consulting, Improving Productivity Tools
                                     </h3>
                                 </VerticalTimelineElement>
@@ -223,7 +223,7 @@ function App() {
                                 >
                                     <h1 className="vertical-timeline-element-title" style={{fontSize: '4vh'}}>Summer Associate</h1>
                                     <h3 className="vertical-timeline-element-subtitle" style={{left: '1vh', fontSize: '2vh', color: 'smoke'}}>Boston, MA</h3>
-                                    <h3 style={{fontSize: '1.5vh', color: 'black'}}>
+                                    <h3 style={{fontSize: '3vh', color: 'black'}}>
                                     Developing Market Research Analyses, Strategy Consulting, Research Project on "Blockchains in Healthcare"
                                     </h3>
                                 </VerticalTimelineElement>
@@ -240,7 +240,7 @@ function App() {
                                 >
                                     <h1 className="vertical-timeline-element-title" style={{fontSize: '4vh'}}>Teaching Assistant, Tufts University</h1>
                                     <h2 className="vertical-timeline-element-subtitle" style={{left: '1vh', fontSize: '2vh', color: 'smoke'}}>San Francisco, CA</h2>
-                                    <h3 style={{fontSize: '1.5vh', color: 'black'}}>
+                                    <h3 style={{fontSize: '3vh', color: 'black'}}>
                                     Lab Preparations, Office Hours, Grading
                                     </h3>
                                 </VerticalTimelineElement>
@@ -256,7 +256,7 @@ function App() {
                                 >
                                     <h1 className="vertical-timeline-element-title" style={{fontSize: '4vh',color: 'rgb(82,82,82)'}}>Researcher, Tufts University</h1>
                                     <h2 className="vertical-timeline-element-subtitle" style={{left: '1vh', fontSize: '2vh', color: 'rgb(82,82,82)'}}>Medford, MA</h2>
-                                    <h3 style={{fontSize: '1.5vh', color: 'rgb(170,170,170)'}}>
+                                    <h3 style={{fontSize: '3vh', color: 'rgb(82,82,82)'}}>
                                     Conducting Primary Research, Data Analysis, Developed Novel Drug-Delivery System
                                     </h3>
                                 </VerticalTimelineElement>
