@@ -1,5 +1,3 @@
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
 import React, {Fragment} from 'react';
 // import logo from './logo.svg';
 import './App.css';
@@ -11,6 +9,8 @@ import WorkIcon from "@material-ui/icons/Work";
 import LinkIcon from "@material-ui/icons/Link";
 import {Grid, Avatar, Paper} from "@material-ui/core";
 import {Link} from 'react-scroll';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -18,9 +18,6 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
-import PlayArrowIcon from '@material-ui/icons/PlayArrow';
-import SkipNextIcon from '@material-ui/icons/SkipNext';
 
 const useStyles = makeStyles((theme) => ({
     root1: {
@@ -144,9 +141,9 @@ function App() {
                                 <Grid item xs={12}/>
 
                                 {/* Education 1 */}
-                                <Grid item xs={4}><h1 style={{fontSize: '4vh'}}>Columbia University</h1></Grid>
+                                <Grid item xs={4}><div style={{fontSize: '4vh'}}>Columbia University</div></Grid>
                                 <Grid item xs={5}/>
-                                <Grid item xs={3}><h1 style={{fontSize: '4vh'}}>Sep 2020  -  May 2022</h1></Grid>
+                                <Grid item xs={3}><div style={{fontSize: '4vh'}}>Sep 2020  -  May 2022</div></Grid>
 
                                 <Grid item xs={4}><h2 style={{fontSize: '3vh'}}>M.S in Computer Science</h2></Grid>
                                 <Grid item xs={5}/>
@@ -159,9 +156,9 @@ function App() {
                                 <br></br>
                                 
                                 {/* Education 2 */}
-                                <Grid item xs={4}><h1 style={{fontSize: '4vh'}}>Tufts University</h1></Grid>
+                                <Grid item xs={4}><div style={{fontSize: '4vh'}}>Tufts University</div></Grid>
                                 <Grid item xs={5}/>
-                                <Grid item xs={3}><h1 style={{fontSize: '4vh'}}>Sep 2015  -  May 2019</h1></Grid>
+                                <Grid item xs={3}><div style={{fontSize: '4vh'}}>Sep 2015  -  May 2019</div></Grid>
 
                                 <Grid item xs={7}><h2 style={{fontSize: '3vh'}}>B.S in Biology, w. Minor in Computer Science</h2></Grid>
                                 <Grid item xs={2}/>
