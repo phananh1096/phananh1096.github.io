@@ -144,7 +144,7 @@ function App() {
                                 <Grid item xs={12}/>
 
                                 {/* Education 1 */}
-                                <Grid item xs={4}><div style={{fontSize: '4vh'}}>Columbia University</div></Grid>
+                                <Grid item xs={4}><h1 style={{fontSize: '4vh'}}>Columbia University</h1></Grid>
                                 <Grid item xs={5}/>
                                 <Grid item xs={3}><h1 style={{fontSize: '4vh', fontStyle: "italic"}}>Sep 2020  -  May 2022</h1></Grid>
 
@@ -158,7 +158,7 @@ function App() {
                                 <br></br>
                                 
                                 {/* Education 2 */}
-                                <Grid item xs={7}><div style={{fontSize: '4vh'}}>Tufts University</div></Grid>
+                                <Grid item xs={7}><h1 style={{fontSize: '4vh'}}>Tufts University</h1></Grid>
                                 <Grid item xs={2}/>
                                 <Grid item xs={3}><h1 style={{fontSize: '4vh', fontStyle: "italic"}}>Sep 2015  -  May 2019</h1></Grid>
 
