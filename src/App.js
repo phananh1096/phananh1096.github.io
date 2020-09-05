@@ -56,6 +56,7 @@ const useStyles = makeStyles((theme) => ({
       paddingBottom: theme.spacing(1),
     },
     linkIcon: {
+      top: '1vh',
       height: 30,
       width: 30,
     },
