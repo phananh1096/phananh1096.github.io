@@ -90,7 +90,6 @@ function App() {
                             <Link to="Education" smooth={true} duration={1000} >Education</Link>
                             <Link to="Experience" smooth={true} duration={1000} >Experience</Link>
                             <Link to="Projects" smooth={true} duration={1000} >Projects</Link>
-                            <a href="https://drive.google.com/file/d/12J9dcTJsAcN8n0QiT8DjwBo-QsV-UPdX/view?usp=sharing">Resume</a>
                             <Link to="Contact" smooth={true} duration={1000} >Resume/Contact</Link>
                         </Navigation>
                     </Drawer>
