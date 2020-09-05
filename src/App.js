@@ -8,11 +8,66 @@ import { Layout, Header, HeaderRow, Navigation, Content,
 // import HomeIcon from "@material-ui/icons/Home";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
+import LinkIcon from "@material-ui/icons/Link";
 import {Grid, Avatar, Paper} from "@material-ui/core";
 import {Link} from 'react-scroll';
 
+import { makeStyles, useTheme } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import IconButton from '@material-ui/core/IconButton';
+import Typography from '@material-ui/core/Typography';
+import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
+import PlayArrowIcon from '@material-ui/icons/PlayArrow';
+import SkipNextIcon from '@material-ui/icons/SkipNext';
+
+const useStyles = makeStyles((theme) => ({
+    root1: {
+      display: 'flex',
+      width: '80vw',
+      height: '50vh',
+      marginLeft: '5vw',
+    },
+
+    root2: {
+        display: 'flex',
+        width: '30vw',
+        height: '20vh',
+        marginLeft: '70vw',
+      },
+
+    details: {
+      display: 'flex',
+      flexDirection: 'column',
+    },
+    content: {
+      flex: '1 0 auto',
+      width: '50vw',
+      top: '1vh',
+    },
+    cover: {
+      width: '45vw',
+    },
+    controls: {
+      display: 'flex',
+      alignItems: 'center',
+      paddingLeft: theme.spacing(1),
+      paddingBottom: theme.spacing(1),
+    },
+    linkIcon: {
+      height: 45,
+      width: 45,
+    },
+  }));
+
+  
 
 function App() {
+
+    const classes = useStyles();
+    const theme = useTheme();
+
   return (
     <div>
         <div >
@@ -76,7 +131,7 @@ function App() {
                 
 
                 {/* Panel 3 - Education */}
-                <Content style={{height: '160vh',background: 'DarkGrey'}}>
+                <Content style={{height: '175vh',background: 'DarkGrey'}}>
                     <div className="page-content" id="Education">
                         <div id='EducationText' style={{fontSize: '8vh', lineHeight: '0.75' }}>
                              <Grid container spacing={2}>
@@ -123,7 +178,7 @@ function App() {
                                 </Grid> */}
                                 <Grid item xs={4}/>
                                 <Grid item xs={4}/>
-                                <Grid item xs={4} style={{textAlign: 'center'}}><h1>Relevant Coursework</h1></Grid>
+                                <Grid item xs={4} style={{textAlign: 'center', fontSize: '8vh'}}><h1>Relevant Coursework</h1></Grid>
                                 <Grid item xs={4}/>
                                 <Grid item xs={4}/>
                                 <Grid item xs={4} style={{textAlign: 'center'}}><h4>Machine Learning | Visualization | Databases | Web Programming | Algorithms | Applied Statistics | Computation Theory | Data Structures</h4></Grid>
@@ -216,58 +271,155 @@ function App() {
                 </Content>
 
                 {/* Panel 5 - Projects */}
-                <Content style={{height: '300vh',background: 'Black'}}>
+                <Content style={{height: '330vh',background: 'Black'}}>
                     <div className="page-content" id="Projects">
                         <div id='ProjectsText' style={{fontSize: '8vh', lineHeight: '0.75' }}>
-                            <div>Projects (In Progress..)</div>
-                            {/* Project 1 */}
+                            <div>Projects</div>
                             <br></br>
-                            <Grid container spacing={2}>
-                                <Grid item xs={12}>
-                                    <Paper elevation={3}>
-                                        <h1>FinAidDB</h1>
-                                    </Paper>    
-                                </Grid>
-                            </Grid>
+                            <br></br>
+
+                            {/* Card 1 */}
+                            <Card className={classes.root1}>
+                                <div className={classes.details}>
+                                    <CardContent className={classes.content}>
+                                    <Typography component="h3" variant="h3">
+                                        FinAidDB (In Progress)
+                                    </Typography>
+                                    <br/>
+                                    <Typography variant="h5" color="textSecondary">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </Typography>
+                                    </CardContent>
+                                    <div className={classes.controls}>
+                                    <IconButton aria-label="previous">
+                                        {/* <LinkIcon className={classes.linkIcon} onClick={event =>  window.location.href='https://github.com/phananh1096'}> </LinkIcon> */}
+                                    </IconButton>
+                                    </div>
+                                </div>
+                                <CardMedia
+                                    className={classes.cover}
+                                    image={require('./img/database-icon.png')}
+                                    title="Live from space album cover"
+                                    // source: https://pixabay.com/illustrations/database-icon-mobile-technology-2389207/
+                                    // credit: https://www.instagram.com/memed.nrh/
+                                />
+                            </Card>
+
+                            <br></br><br></br>
                             
-                            {/* Project 2 */}
-                            <Grid container spacing={2}>
-                                <Grid item xs={12}>
-                                    <Paper elevation={3}>
-                                        <h1>InternMaps</h1>
-                                    </Paper>    
-                                </Grid>
-                            </Grid>
+                            {/* Card 2 */}
+                            <Card className={classes.root1}>
+                                <div className={classes.details}>
+                                    <CardContent className={classes.content}>
+                                    <Typography component="h3" variant="h3">
+                                        InternMaps
+                                    </Typography>
+                                    <br></br>
+                                    <Typography variant="h5" color="textSecondary">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </Typography>
+                                    </CardContent>
+                                    <div className={classes.controls}>
+                                    <IconButton aria-label="previous" >
+                                        {/* <LinkIcon className={classes.linkIcon} onClick={event =>  window.location.href='https://intern-maps.herokuapp.com/'}> </LinkIcon> */}
+                                    </IconButton>
+                                    
+                                    </div>
+                                </div>
+                                <CardMedia
+                                    className={classes.cover}
+                                    image={require('./img/map.png')}
+                                    title="Live from space album cover"
+                                    // source: https://www.flaticon.com/free-icon/map_235861#
+                                />
+                            </Card>
 
-                            {/* Project 3 */}
-                            <Grid container spacing={2}>
-                                <Grid item xs={12}>
-                                    <Paper elevation={3}>
-                                        <h1>God-Jammit</h1>
-                                    </Paper>    
-                                </Grid>
-                            </Grid>
+                            <br></br><br></br>
+                            
+                            {/* Card 3 */}
+                            <Card className={classes.root1}>
+                                <div className={classes.details}>
+                                    <CardContent className={classes.content}>
+                                    <Typography component="h3" variant="h3">
+                                        God-Jammit
+                                    </Typography>
+                                    <br></br>
+                                    <Typography variant="h5" color="textSecondary">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </Typography>
+                                    </CardContent>
+                                    <div className={classes.controls}>
+                                    <IconButton aria-label="previous">
+                                        <LinkIcon className={classes.linkIcon} onClick={event =>  window.location.href='http://god-jammit.herokuapp.com/'}> </LinkIcon>
+                                    </IconButton>
+                                    </div>
+                                </div>
+                                <CardMedia
+                                    className={classes.cover}
+                                    image={require('./img/gj-2.png')}
+                                    title="Live from space album cover"  
+                                />
+                            </Card>
+                            <br></br><br></br>
+                            
+                            {/* Card 4 */}
+                            <Card className={classes.root1}>
+                                <div className={classes.details}>
+                                    <CardContent className={classes.content}>
+                                    <Typography component="h3" variant="h3">
+                                        Smells Fishy
+                                    </Typography>
+                                    <br></br>
+                                    <Typography variant="h5" color="textSecondary">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </Typography>
+                                    </CardContent>
+                                    <div className={classes.controls}>
+                                    <IconButton aria-label="previous">
+                                        <LinkIcon className={classes.linkIcon} onClick={event =>  window.location.href='https://jacoma.github.io/smellsfishy.github.io/'}> </LinkIcon>
+                                    </IconButton>
+                                    </div>
+                                </div>
+                                <CardMedia
+                                    className={classes.cover}
+                                    image={require('./img/smells-fishy.png')}
+                                    title="Live from space album cover"
+                                />
+                            </Card>
 
-                            {/* Project 4 */}
-                            <Grid container spacing={2}>
-                                <Grid item xs={12}>
-                                    <Paper elevation={3}>
-                                        <h1>Smells Fishy</h1>
-                                    </Paper>    
-                                </Grid>
-                            </Grid>
+                            <br></br><br></br>
 
-                            {/* Project 5 */}
-                            <Grid container spacing={2}>
-                                <Grid item xs={12}>
-                                    <Paper elevation={3}>
-                                        <h1>2048</h1>
-                                    </Paper>    
-                                </Grid>
-                            </Grid>
+                            {/* Card 5 */}
+                            <Card className={classes.root1}>
+                                <div className={classes.details}>
+                                    <CardContent className={classes.content}>
+                                    <Typography component="h3" variant="h3">
+                                        2048
+                                    </Typography>
+                                    <br></br>
+                                    <Typography variant="h5" color="textSecondary">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </Typography>
+                                    </CardContent>
+                                    <div className={classes.controls}>
+                                    <IconButton aria-label="previous">
+                                        <LinkIcon className={classes.linkIcon} onClick={event =>  window.location.href='https://github.com/phananh1096/2048'}> </LinkIcon>
+                                    </IconButton>
+                                    </div>
+                                </div>
+                                <CardMedia
+                                    className={classes.cover}
+                                    image={require('./img/2048_logo.png')}
+                                    title="Live from space album cover"
+                                />
+                            </Card>
                         </div>
                     </div>
+
+                    
                 </Content>
+
+                
 
                 {/* Panel 5 - Contact (Use footer) */}
                 <Footer size="mini" id="Contact">
@@ -280,6 +432,7 @@ function App() {
                         </FooterLinkList>
                     </FooterSection>
                 </Footer>
+                
             </Layout>
         </div>
     </div>
