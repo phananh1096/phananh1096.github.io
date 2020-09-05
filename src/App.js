@@ -144,11 +144,11 @@ function App() {
                                 <Grid item xs={12}/>
 
                                 {/* Education 1 */}
-                                <Grid item xs={4}><div style={{fontSize: '4vh', lineHeight: '0' }}>Columbia University</div></Grid>
+                                <Grid item xs={4}><div style={{fontSize: '4vh'}}>Columbia University</div></Grid>
                                 <Grid item xs={5}/>
-                                <Grid item xs={3}><h1 style={{fontSize: '2.5vh', fontStyle: "italic", lineHeight: '0' }}>Sep 2020  -  May 2022</h1></Grid>
+                                <Grid item xs={3}><h1 style={{fontSize: '4vh', fontStyle: "italic"}}>Sep 2020  -  May 2022</h1></Grid>
 
-                                <Grid item xs={4}><h2 style={{fontSize: '3vh', lineHeight: '0' }}>M.S in Computer Science</h2></Grid>
+                                <Grid item xs={4}><h2 style={{fontSize: '3vh'}}>M.S in Computer Science</h2></Grid>
                                 <Grid item xs={5}/>
                                 {/* <Grid item xs={3}><h2 style={{fontSize: '3vh', lineHeight: '0' }}>GPA: TBD</h2></Grid> */}
                                 <Grid item xs={12}/>
@@ -158,13 +158,13 @@ function App() {
                                 <br></br>
                                 
                                 {/* Education 2 */}
-                                <Grid item xs={7}><div style={{fontSize: '4vh', lineHeight: '0' }}>Tufts University</div></Grid>
+                                <Grid item xs={7}><div style={{fontSize: '4vh'}}>Tufts University</div></Grid>
                                 <Grid item xs={2}/>
-                                <Grid item xs={3}><h1 style={{fontSize: '2.5vh', fontStyle: "italic", lineHeight: '0' }}>Sep 2015  -  May 2019</h1></Grid>
+                                <Grid item xs={3}><h1 style={{fontSize: '4vh', fontStyle: "italic"}}>Sep 2015  -  May 2019</h1></Grid>
 
-                                <Grid item xs={7}><h2 style={{fontSize: '3vh', lineHeight: '0' }}>B.S in Biology, w. Minor in Computer Science</h2></Grid>
+                                <Grid item xs={7}><h2 style={{fontSize: '3vh'}}>B.S in Biology, w. Minor in Computer Science</h2></Grid>
                                 <Grid item xs={2}/>
-                                <Grid item xs={3}><h2 style={{fontSize: '2.5vh', lineHeight: '0' }}>GPA: 3.8</h2></Grid>
+                                <Grid item xs={3}><h2 style={{fontSize: '2.5vh'}}>GPA: 3.8</h2></Grid>
                                 <Grid item xs={12}/>
                                 <Grid item xs={12}/>
                                 <Grid item xs={12}/>
