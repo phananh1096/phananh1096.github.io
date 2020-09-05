@@ -67,7 +67,7 @@ function App() {
                                 <div id='AboutMeText' style={{fontSize: '8vh', lineHeight: '0.75' }}>
                                     <div>About me</div>
                                     <br></br>
-                                    <h3>I'm currently a first year M.S in Computer Science student at Columbia University. My interests involve healthcare, tech, and photography. I previously worked in the San Francisco Bay Area as a Life Sciences Consultant.</h3>
+                                    <h3 style={{fontSize: '4vh'}}>I'm currently a first year M.S in Computer Science student at Columbia University. My interests involve healthcare, tech, and photography. I previously worked in the San Francisco Bay Area as a Life Sciences Consultant.</h3>
                                 </div>
                             </div>
                         </Grid>  
@@ -76,7 +76,7 @@ function App() {
                 
 
                 {/* Panel 3 - Education */}
-                <Content style={{height: '130vh',background: 'DarkGrey'}}>
+                <Content style={{height: '160vh',background: 'DarkGrey'}}>
                     <div className="page-content" id="Education">
                         <div id='EducationText' style={{fontSize: '8vh', lineHeight: '0.75' }}>
                              <Grid container spacing={2}>
