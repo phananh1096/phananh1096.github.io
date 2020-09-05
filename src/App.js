@@ -146,10 +146,11 @@ function App() {
                                 {/* Education 1 */}
                                 <Grid item xs={4}><h1 style={{fontSize: '4vh'}}>Columbia University</h1></Grid>
                                 <Grid item xs={5}/>
-                                <Grid item xs={3}><h1 style={{fontSize: '4vh', fontStyle: "italic"}}>Sep 2020  -  May 2022</h1></Grid>
+                                <Grid item xs={3}><h1 style={{fontSize: '4vh'}}>Sep 2020  -  May 2022</h1></Grid>
 
                                 <Grid item xs={4}><h2 style={{fontSize: '3vh'}}>M.S in Computer Science</h2></Grid>
                                 <Grid item xs={5}/>
+                                <Grid item xs={3}/>
                                 {/* <Grid item xs={3}><h2 style={{fontSize: '3vh', lineHeight: '0' }}>GPA: TBD</h2></Grid> */}
                                 <Grid item xs={12}/>
                                 <Grid item xs={12}/>
@@ -158,9 +159,9 @@ function App() {
                                 <br></br>
                                 
                                 {/* Education 2 */}
-                                <Grid item xs={7}><h1 style={{fontSize: '4vh'}}>Tufts University</h1></Grid>
-                                <Grid item xs={2}/>
-                                <Grid item xs={3}><h1 style={{fontSize: '4vh', fontStyle: "italic"}}>Sep 2015  -  May 2019</h1></Grid>
+                                <Grid item xs={4}><h1 style={{fontSize: '4vh'}}>Tufts University</h1></Grid>
+                                <Grid item xs={5}/>
+                                <Grid item xs={3}><h1 style={{fontSize: '4vh'}}>Sep 2015  -  May 2019</h1></Grid>
 
                                 <Grid item xs={7}><h2 style={{fontSize: '3vh'}}>B.S in Biology, w. Minor in Computer Science</h2></Grid>
                                 <Grid item xs={2}/>
