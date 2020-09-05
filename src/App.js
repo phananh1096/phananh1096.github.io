@@ -177,7 +177,7 @@ function App() {
                                 </Grid> */}
                                 <Grid item xs={4}/>
                                 <Grid item xs={4}/>
-                                <Grid item xs={4} style={{textAlign: 'center', fontSize: '8vh'}}><h1>Relevant Coursework</h1></Grid>
+                                <Grid item xs={4} style={{textAlign: 'center', fontSize: '4vh'}}><h1>Relevant Coursework</h1></Grid>
                                 <Grid item xs={4}/>
                                 <Grid item xs={4}/>
                                 <Grid item xs={4} style={{textAlign: 'center'}}><h4>Machine Learning | Visualization | Databases | Web Programming | Algorithms | Applied Statistics | Computation Theory | Data Structures</h4></Grid>
