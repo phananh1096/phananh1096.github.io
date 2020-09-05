@@ -99,7 +99,7 @@ function App() {
                 {/* Panel 1 */}
                 <Content style={{height: '100vh', background: `url(${require('./img/whitesmoke.jpg')}) center / cover`, marginTop: "64px"}}>
                     <div className="page-content">
-                        <div id='LandingText' style={{fontSize: '10vh', lineHeight: '0.75' }}>
+                        <div id='LandingText' style={{fontSize: '8vh', lineHeight: '0.75' }}>
                             <div>Hi there,</div>
                             <br></br>
                             <div>I'm Phan Anh.</div>
