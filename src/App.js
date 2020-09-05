@@ -56,8 +56,8 @@ const useStyles = makeStyles((theme) => ({
       paddingBottom: theme.spacing(1),
     },
     linkIcon: {
-      height: 45,
-      width: 45,
+      height: 30,
+      width: 30,
     },
   }));
 
@@ -131,7 +131,7 @@ function App() {
                 
 
                 {/* Panel 3 - Education */}
-                <Content style={{height: '175vh',background: 'DarkGrey'}}>
+                <Content style={{height: '180vh',background: 'DarkGrey'}}>
                     <div className="page-content" id="Education">
                         <div id='EducationText' style={{fontSize: '8vh', lineHeight: '0.75' }}>
                              <Grid container spacing={2}>
@@ -271,7 +271,7 @@ function App() {
                 </Content>
 
                 {/* Panel 5 - Projects */}
-                <Content style={{height: '330vh',background: 'Black'}}>
+                <Content style={{height: '375vh',background: 'Black'}}>
                     <div className="page-content" id="Projects">
                         <div id='ProjectsText' style={{fontSize: '8vh', lineHeight: '0.75' }}>
                             <div>Projects</div>
@@ -286,7 +286,7 @@ function App() {
                                         FinAidDB (In Progress)
                                     </Typography>
                                     <br/>
-                                    <Typography variant="h5" color="textSecondary">
+                                    <Typography variant="h6" color="textSecondary">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                     </Typography>
                                     </CardContent>
@@ -315,7 +315,7 @@ function App() {
                                         InternMaps
                                     </Typography>
                                     <br></br>
-                                    <Typography variant="h5" color="textSecondary">
+                                    <Typography variant="h6" color="textSecondary">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                     </Typography>
                                     </CardContent>
@@ -344,7 +344,7 @@ function App() {
                                         God-Jammit
                                     </Typography>
                                     <br></br>
-                                    <Typography variant="h5" color="textSecondary">
+                                    <Typography variant="h6" color="textSecondary">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                     </Typography>
                                     </CardContent>
@@ -370,7 +370,7 @@ function App() {
                                         Smells Fishy
                                     </Typography>
                                     <br></br>
-                                    <Typography variant="h5" color="textSecondary">
+                                    <Typography variant="h6" color="textSecondary">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                     </Typography>
                                     </CardContent>
@@ -397,7 +397,7 @@ function App() {
                                         2048
                                     </Typography>
                                     <br></br>
-                                    <Typography variant="h5" color="textSecondary">
+                                    <Typography variant="h6" color="textSecondary">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                     </Typography>
                                     </CardContent>
