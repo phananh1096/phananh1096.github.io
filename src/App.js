@@ -27,7 +27,7 @@ function App() {
                                 <Link to="Education" smooth={true} duration={1000} >Education</Link>
                                 <Link to="Experience" smooth={true} duration={1000} >Experience</Link>
                                 <Link to="Projects" smooth={true} duration={1000} >Projects</Link>
-                                <Link to="Contact" smooth={true} duration={1000} >Contact</Link>
+                                <Link to="Contact" smooth={true} duration={1000} >Resume/Contact</Link>
                             </Navigation>
                         </HeaderRow>
                     </Header>
@@ -37,7 +37,8 @@ function App() {
                             <Link to="Education" smooth={true} duration={1000} >Education</Link>
                             <Link to="Experience" smooth={true} duration={1000} >Experience</Link>
                             <Link to="Projects" smooth={true} duration={1000} >Projects</Link>
-                            <Link to="Contact" smooth={true} duration={1000} >Contact</Link>
+                            <a href="https://drive.google.com/file/d/12J9dcTJsAcN8n0QiT8DjwBo-QsV-UPdX/view?usp=sharing">Resume</a>
+                            <Link to="Contact" smooth={true} duration={1000} >Resume/Contact</Link>
                         </Navigation>
                     </Drawer>
                 {/* </div> */}
@@ -66,7 +67,7 @@ function App() {
                                 <div id='AboutMeText' style={{fontSize: '8vh', lineHeight: '0.75' }}>
                                     <div>About me</div>
                                     <br></br>
-                                    <h2>I'm currently a first year M.S in Computer Science student at Columbia University. My interests involve healthcare, tech, and photography. I previously worked in the San Francisco Bay Area as a Life Sciences Consultant.</h2>
+                                    <h3>I'm currently a first year M.S in Computer Science student at Columbia University. My interests involve healthcare, tech, and photography. I previously worked in the San Francisco Bay Area as a Life Sciences Consultant.</h3>
                                 </div>
                             </div>
                         </Grid>  
@@ -98,7 +99,7 @@ function App() {
                                 <Grid item xs={12}/>
                                 <Grid item xs={12}/>
                                 
-                                <br></br><br></br>
+                                <br></br>
                                 
                                 {/* Education 2 */}
                                 <Grid item xs={7}><div style={{fontSize: '4vh', lineHeight: '1.75' }}>Tufts University</div></Grid>
@@ -218,8 +219,9 @@ function App() {
                 <Content style={{height: '300vh',background: 'Black'}}>
                     <div className="page-content" id="Projects">
                         <div id='ProjectsText' style={{fontSize: '8vh', lineHeight: '0.75' }}>
-                            <div>Projects</div>
+                            <div>Projects (In Progress..)</div>
                             {/* Project 1 */}
+                            <br></br>
                             <Grid container spacing={2}>
                                 <Grid item xs={12}>
                                     <Paper elevation={3}>
@@ -271,10 +273,10 @@ function App() {
                 <Footer size="mini" id="Contact">
                     <FooterSection type="left" logo="Contact">
                         <FooterLinkList>
-                            <a href="#">Email</a>
+                            <a href="mailto:pn2363@columbia.edu">Email</a>
                             <a href="https://github.com/phananh1096">Github</a>
                             <a href="https://www.linkedin.com/in/phananh-nguyen/">LinkedIn</a>
-                            <a href="#">Resume</a>
+                            <a href="https://drive.google.com/file/d/12J9dcTJsAcN8n0QiT8DjwBo-QsV-UPdX/view?usp=sharing">Resume</a>
                         </FooterLinkList>
                     </FooterSection>
                 </Footer>
