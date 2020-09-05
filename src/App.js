@@ -71,7 +71,7 @@ function App() {
         <div >
             <Layout fixedHeader style={{height: '10%', position: 'relative'}}>
                 {/* <div style={{position: "fixed", top: 0, width: "100vw", margin: "auto", "zIndex": 100}}> */}
-                    <Header style={{height: '4vh', position: "fixed", top: 0, width: "100vw", margin: "auto", zIndex: '100', backgroundColor: '#373737'}}>
+                    <Header style={{fontsize:'1.5vh', height: '3vh', position: "fixed", top: 0, width: "100vw", margin: "auto", zIndex: '100', backgroundColor: '#373737'}}>
                         <HeaderRow id="Header" title=" " style={{color: 'white'}}>
                             <Navigation>
                                 {/* <Button> */}
@@ -421,7 +421,7 @@ function App() {
                 
 
                 {/* Panel 5 - Contact (Use footer) */}
-                <Footer size="mini" id="Contact">
+                <Footer size="mini" id="Contact" style={{fontsize:'1.5vh', height: '3vh', backgroundColor: '#373737'}}>
                     <FooterSection type="left" logo="Contact">
                         <FooterLinkList>
                             <a href="mailto:pn2363@columbia.edu">Email</a>
