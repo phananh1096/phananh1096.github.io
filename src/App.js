@@ -207,9 +207,9 @@ function App() {
                                 >
                                     <h1 className="vertical-timeline-element-title" style={{fontSize: '4vh'}}>Associate Consultant</h1>
                                     <h3 className="vertical-timeline-element-subtitle" style={{left: '1vh', fontSize: '2vh', color: 'smoke'}}>San Francisco, CA</h3>
-                                    <h4 style={{fontSize: '1.5vh', color: 'black'}}>
+                                    <h3 style={{fontSize: '1.5vh', color: 'black'}}>
                                     Building and Automating Analyses, Strategy Consulting, Improving Productivity Tools
-                                    </h4>
+                                    </h3>
                                 </VerticalTimelineElement>
 
                                 {/* Job 2 */}
@@ -223,9 +223,9 @@ function App() {
                                 >
                                     <h1 className="vertical-timeline-element-title" style={{fontSize: '4vh'}}>Summer Associate</h1>
                                     <h3 className="vertical-timeline-element-subtitle" style={{left: '1vh', fontSize: '2vh', color: 'smoke'}}>Boston, MA</h3>
-                                    <h4 style={{fontSize: '1.5vh', color: 'black'}}>
+                                    <h3 style={{fontSize: '1.5vh', color: 'black'}}>
                                     Developing Market Research Analyses, Strategy Consulting, Research Project on "Blockchains in Healthcare"
-                                    </h4>
+                                    </h3>
                                 </VerticalTimelineElement>
                                 
 
@@ -239,10 +239,10 @@ function App() {
                                     icon={<SchoolIcon />}
                                 >
                                     <h1 className="vertical-timeline-element-title" style={{fontSize: '4vh'}}>Teaching Assistant, Tufts University</h1>
-                                    <h3 className="vertical-timeline-element-subtitle" style={{left: '1vh', fontSize: '2vh', color: 'smoke'}}>San Francisco, CA</h3>
-                                    <h4 style={{fontSize: '1.5vh', color: 'black'}}>
+                                    <h2 className="vertical-timeline-element-subtitle" style={{left: '1vh', fontSize: '2vh', color: 'smoke'}}>San Francisco, CA</h2>
+                                    <h3 style={{fontSize: '1.5vh', color: 'black'}}>
                                     Lab Preparations, Office Hours, Grading
-                                    </h4>
+                                    </h3>
                                 </VerticalTimelineElement>
 
                                 {/* Job 4 */}
@@ -255,10 +255,10 @@ function App() {
                                     icon={<SchoolIcon />}
                                 >
                                     <h1 className="vertical-timeline-element-title" style={{fontSize: '4vh',color: 'rgb(82,82,82)'}}>Researcher, Tufts University</h1>
-                                    <h3 className="vertical-timeline-element-subtitle" style={{left: '1vh', fontSize: '2vh', color: 'rgb(82,82,82)'}}>Medford, MA</h3>
-                                    <h4 style={{fontSize: '1.5vh', color: 'rgb(170,170,170)'}}>
+                                    <h2 className="vertical-timeline-element-subtitle" style={{left: '1vh', fontSize: '2vh', color: 'rgb(82,82,82)'}}>Medford, MA</h2>
+                                    <h3 style={{fontSize: '1.5vh', color: 'rgb(170,170,170)'}}>
                                     Conducting Primary Research, Data Analysis, Developed Novel Drug-Delivery System
-                                    </h4>
+                                    </h3>
                                 </VerticalTimelineElement>
                             </VerticalTimeline>
                             {/* <h1>Associate Consultant - Putnam Associates</h1>
