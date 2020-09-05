@@ -164,7 +164,7 @@ function App() {
 
                                 <Grid item xs={7}><h2 style={{fontSize: '3vh'}}>B.S in Biology, w. Minor in Computer Science</h2></Grid>
                                 <Grid item xs={2}/>
-                                <Grid item xs={3}><h2 style={{fontSize: '2.5vh'}}>GPA: 3.8</h2></Grid>
+                                <Grid item xs={3}><h2 style={{fontSize: '3vh'}}>GPA: 3.8</h2></Grid>
                                 <Grid item xs={12}/>
                                 <Grid item xs={12}/>
                                 <Grid item xs={12}/>
