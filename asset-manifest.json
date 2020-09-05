@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/phananh1096.github.io/static/css/main.01b8c3f2.chunk.css",
-    "main.js": "/phananh1096.github.io/static/js/main.9c534e53.chunk.js",
-    "main.js.map": "/phananh1096.github.io/static/js/main.9c534e53.chunk.js.map",
+    "main.js": "/phananh1096.github.io/static/js/main.377aed3f.chunk.js",
+    "main.js.map": "/phananh1096.github.io/static/js/main.377aed3f.chunk.js.map",
     "runtime-main.js": "/phananh1096.github.io/static/js/runtime-main.73229063.js",
     "runtime-main.js.map": "/phananh1096.github.io/static/js/runtime-main.73229063.js.map",
     "static/css/2.1f2b2ec0.chunk.css": "/phananh1096.github.io/static/css/2.1f2b2ec0.chunk.css",
     "static/js/2.c96bb004.chunk.js": "/phananh1096.github.io/static/js/2.c96bb004.chunk.js",
     "static/js/2.c96bb004.chunk.js.map": "/phananh1096.github.io/static/js/2.c96bb004.chunk.js.map",
     "index.html": "/phananh1096.github.io/index.html",
-    "precache-manifest.3ba6db1d12d2d78873506fa8fb835d94.js": "/phananh1096.github.io/precache-manifest.3ba6db1d12d2d78873506fa8fb835d94.js",
+    "precache-manifest.8dc57df3831a27d8440b512ce53dbfb2.js": "/phananh1096.github.io/precache-manifest.8dc57df3831a27d8440b512ce53dbfb2.js",
     "service-worker.js": "/phananh1096.github.io/service-worker.js",
     "static/css/2.1f2b2ec0.chunk.css.map": "/phananh1096.github.io/static/css/2.1f2b2ec0.chunk.css.map",
     "static/css/main.01b8c3f2.chunk.css.map": "/phananh1096.github.io/static/css/main.01b8c3f2.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.1f2b2ec0.chunk.css",
     "static/js/2.c96bb004.chunk.js",
     "static/css/main.01b8c3f2.chunk.css",
-    "static/js/main.9c534e53.chunk.js"
+    "static/js/main.377aed3f.chunk.js"
   ]
 }
