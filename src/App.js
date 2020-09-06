@@ -319,7 +319,7 @@ function App() {
                                     </CardContent>
                                     <div className={classes.controls}>
                                     <IconButton aria-label="previous" >
-                                        {/* <LinkIcon className={classes.linkIcon} onClick={event =>  window.location.href='https://intern-maps.herokuapp.com/'}> </LinkIcon> */}
+                                        <LinkIcon className={classes.linkIcon} onClick={event =>  window.location.href='https://intern-maps.herokuapp.com/'}> </LinkIcon>
                                     </IconButton>
                                     
                                     </div>
