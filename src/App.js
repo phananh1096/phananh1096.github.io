@@ -178,9 +178,9 @@ function App() {
                                 <Grid item xs={3}/>
                                 <Grid item xs={6} style={{textAlign: 'center', fontSize: '6vh'}}><h1>Relevant Coursework</h1></Grid>
                                 <Grid item xs={3}/>
-                                <Grid item xs={4}/>
-                                <Grid item xs={4} style={{textAlign: 'center'}}><h4>Machine Learning | Visualization | Databases | Web Programming | Algorithms | Applied Statistics | Computation Theory | Data Structures</h4></Grid>
-                                <Grid item xs={4}/>
+                                <Grid item xs={2}/>
+                                <Grid item xs={8} style={{textAlign: 'center'}}><h4>Machine Learning | Visualization | Databases | Web Programming | Algorithms | Applied Statistics | Computation Theory | Data Structures</h4></Grid>
+                                <Grid item xs={2}/>
                                 
                                 
                             </Grid>
@@ -285,7 +285,12 @@ function App() {
                                     </Typography>
                                     <br/>
                                     <Typography variant="h6" color="textSecondary">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <p>Almost all U.S Universities have seperate financial aid and scholarship policies for international students. This creates a lot more stress for students trying to plan out which schools to apply to</p> 
+                                        
+                                        <p>FinAidDB hopes to be an up-to-date, compiled database where international students can simply look up financial aid or scholarship information of the school of their choice, without having to do extensive research</p>
+
+                                        <p>Some of the core functionalities will include: Ability to search for a specific school, filter search results by various attributes like location, school size, aacceptance rate, etc., and download results to a local device</p>
+                                        
                                     </Typography>
                                     </CardContent>
                                     <div className={classes.controls}>
@@ -314,14 +319,15 @@ function App() {
                                     </Typography>
                                     <br></br>
                                     <Typography variant="h6" color="textSecondary">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <p>InternMaps is a 'yelp-like' implementation of a job search API. It is a Flask-based API where Indeed job data was scraped using Selenium and combined with company geolocation data using Google Maps API to serve JSON that includes geo-visualizable details </p>
+                                        
+                                        <p>Frontend interface was built using vanilla JS and JQuery. Project was hosted on Heroku. </p>
                                     </Typography>
                                     </CardContent>
                                     <div className={classes.controls}>
-                                    <IconButton aria-label="previous" >
-                                        <LinkIcon className={classes.linkIcon} onClick={event =>  window.location.href='https://intern-maps.herokuapp.com/'}> </LinkIcon>
-                                    </IconButton>
-                                    
+                                        <IconButton aria-label="previous" >
+                                            <LinkIcon className={classes.linkIcon} onClick={event =>  window.location.href='https://intern-maps.herokuapp.com/'}> </LinkIcon>
+                                        </IconButton>
                                     </div>
                                 </div>
                                 <CardMedia
@@ -343,7 +349,12 @@ function App() {
                                     </Typography>
                                     <br></br>
                                     <Typography variant="h6" color="textSecondary">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <p>God-Jammit is a web application for live instrument sharing where users can invite friends to their 'room', plug-and-play their local MIDI-supported instruments (or use their laptop keyboard that's been mapped), and record their sessions.</p>
+
+                                        <p>Sessions can then be saved to the server and later search and retrieved for editing/downloading.</p>
+                                        
+                                        <p>App is based on Google Firebase and utilizes Node.js, Express, Socket.io, MIDI, and Bootstrap</p>
+                                    
                                     </Typography>
                                     </CardContent>
                                     <div className={classes.controls}>
@@ -369,7 +380,10 @@ function App() {
                                     </Typography>
                                     <br></br>
                                     <Typography variant="h6" color="textSecondary">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <h4>Implementation of a research project on bringing awareness to the damaging effects of overfishing. </h4>
+
+                                        <h4>Data collected, cleaned and visualized using D3.js, JQuery and Popper.</h4>
+                                        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */}
                                     </Typography>
                                     </CardContent>
                                     <div className={classes.controls}>
@@ -396,7 +410,9 @@ function App() {
                                     </Typography>
                                     <br></br>
                                     <Typography variant="h6" color="textSecondary">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <h5>Command-line implementation of 2048 in C++. </h5>
+                                        <h5>Elements of the game include high-score tracker and adjustable difficulty baased on tile size.</h5>
+                                        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */}
                                     </Typography>
                                     </CardContent>
                                     <div className={classes.controls}>
