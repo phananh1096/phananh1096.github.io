@@ -188,6 +188,7 @@ function App() {
                     </div>  
                 </Content>
 
+
                 {/* Panel 4 - Experience */}
                 <Content style={{height: '320vh',background: 'Grey'}}>
                     <div className="page-content" id="Experience">
@@ -380,9 +381,9 @@ function App() {
                                     </Typography>
                                     <br></br>
                                     <Typography variant="h6" color="textSecondary">
-                                        <h4>Implementation of a research project on bringing awareness to the damaging effects of overfishing. </h4>
+                                        <p>Implementation of a research project on bringing awareness to the damaging effects of overfishing. </p>
 
-                                        <h4>Data collected, cleaned and visualized using D3.js, JQuery and Popper.</h4>
+                                        <p>Data collected, cleaned and visualized using D3.js, JQuery and Popper.</p>
                                         {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */}
                                     </Typography>
                                     </CardContent>
@@ -410,8 +411,8 @@ function App() {
                                     </Typography>
                                     <br></br>
                                     <Typography variant="h6" color="textSecondary">
-                                        <h5>Command-line implementation of 2048 in C++. </h5>
-                                        <h5>Elements of the game include high-score tracker and adjustable difficulty baased on tile size.</h5>
+                                        <p>Command-line implementation of 2048 in C++. </p>
+                                        <p>Elements of the game include high-score tracker and adjustable difficulty baased on tile size.</p>
                                         {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */}
                                     </Typography>
                                     </CardContent>
